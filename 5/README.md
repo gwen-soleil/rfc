@@ -78,27 +78,27 @@ A Tango Property is a strict definition of a pair of key/value
 	 * String **standard_unit** default value "No standard unit"
 	 * String **display_unit** default value "No display unit"
 	 * String **format** default value :
-				* attribute type is a string, "%s"
-				* attribute type is float or double, "%6.2f"
-				* "Not specified" otherwise
-  * String **min_value** default value "Not specified"
-  * String **max_value** default value  "Not specified"
-  * String **min_alarm** default value "Not specified"
-  * String **max_alarm** default value  "Not specified"
-  * String **min_warning** default value  "Not specified"
-  * String **max_warning** default value  "Not specified"
-  * String **delta_t** default value  "Not specified"
-  * String **delta_val** default value "Not specified"
-		* String **abs_change** default value "Not specified"
-		* String **rel_change** default value "Not specified"
-		* String **event_period** default value "Not specified"
-		* String **archive_period** default value "Not specified"
-		* String **archive_rel_change** default value "Not specified"
-		* String **archive_abs_change** default value "Not specified"
-		* String **enum_labels** default value "Not specified"
-		* String **__root_att** default value "Not specified"
-		* String **enum_labels**
-		* String **__value**
+	   * attribute type is a string, "%s"
+	   * attribute type is float or double, "%6.2f"
+	   * "Not specified" otherwise
+  	 * String **min_value** default value "Not specified"
+         * String **max_value** default value  "Not specified"
+         * String **min_alarm** default value "Not specified"
+         * String **max_alarm** default value  "Not specified"
+         * String **min_warning** default value  "Not specified"
+  	 * String **max_warning** default value  "Not specified"
+  	 * String **delta_t** default value  "Not specified"
+  	 * String **delta_val** default value "Not specified"
+	 * String **abs_change** default value "Not specified"
+	 * String **rel_change** default value "Not specified"
+	 * String **event_period** default value "Not specified"
+	 * String **archive_period** default value "Not specified"
+	 * String **archive_rel_change** default value "Not specified"
+	 * String **archive_abs_change** default value "Not specified"
+	 * String **enum_labels** default value "Not specified"
+	 * String **__root_att** default value "Not specified"
+	 * String **enum_labels**
+	 * String **__value**
 
 
 ### Naming convention
@@ -108,10 +108,10 @@ property-name = 1*VCHAR
 ```
 * The property name is case insensitive
 * The Property value MUST use the following convention:
-        single value that may contains any caracter
-        or an array with carriage return
-        special values: "NaN", "inf"
-	* TODO nodbproperties file convention		
+  * single value that may contains any caracter
+  * or an array with carriage return
+  * special values: "NaN", "inf"
+* TODO nodbproperties file convention		
 ```
 # --- 1/1/1 properties
 1/1/1->myProp:titi
